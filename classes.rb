@@ -9,3 +9,5 @@ puts nil.class
 puts false.class
 puts [5, "kill", 6.978, :symbol].class
 #an instance of a class is an object that belongs to that class
+#every class has the new method to create new classes except for integers
+
