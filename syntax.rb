@@ -7,6 +7,24 @@
 #only accessible within block of initialization
 #instance variables- starts with @- for initialization
 #defined inside classes and accessed inside the class
+#instance variables dont have to be created in the initialize method, but that is how you give them an initial value
+#instance variables are used to share data between your controller and views
+
+=begin
+direct assignment
+
+class MyClass
+    def initialize(name)
+        @name = name
+    end
+    def update_age(age)
+        @age = age
+    end
+
+end
+
+=end
+
 class CoffeeMachine
     #attr_reader :water  0r
     def initialize
