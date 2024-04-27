@@ -9,11 +9,16 @@
 #defined inside classes and accessed inside the class
 #instance variables dont have to be created in the initialize method, but that is how you give them an initial value
 #instance variables are used to share data between your controller and views
+#an instance variable belongs to the object itself and is of the self(class)
+# accessing it #{@water}
 
 =begin
 direct assignment
 
 class MyClass
+    or 
+    @gender = []
+    
     def initialize(name)
         @name = name
     end
